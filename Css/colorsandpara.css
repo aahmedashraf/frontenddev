@@ -1,0 +1,29 @@
+/* #first {
+  color: #ff0000;
+  background-color: chocolate;
+}
+#second {
+  color: crimson;
+  background: yellow;
+}
+#three {
+  color: aqua;
+  background: crimson;
+}
+ opacity 
+body {
+  background: rgba(0, 0, 0, 0.5);
+}
+Check coolers website for color shade variety
+*/
+.banner {
+  border: 5px solid red;
+  padding: 10px;
+}
+img {
+  float: left;
+  position: static;
+}
+p {
+  clear: left;
+}

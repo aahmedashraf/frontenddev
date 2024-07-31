@@ -1,0 +1,286 @@
+body {
+  width: 100%;
+  margin: auto;
+  background: white;
+}
+
+h1,
+h2,
+p,
+.tweet a {
+  color: grey;
+}
+h2 {
+  font-size: 1rem;
+}
+a {
+  font-size: 0.7rem;
+}
+.container1 {
+  width: 98%;
+  margin: auto;
+}
+.c1 {
+  display: flex;
+  margin-top: 1em;
+  justify-content: space-between;
+}
+.nav a {
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+  font-size: 1.5rem;
+  color: grey;
+}
+.limg {
+  width: 20%;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+.nav ul :hover {
+  transform: scale(1.03);
+}
+.nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  list-style-type: none;
+}
+
+.im {
+  width: 70%;
+  height: auto;
+  text-align: center;
+}
+.im img {
+  max-width: 100%;
+  /* border: 2px solid #ffcc5b; */
+}
+.imageunder {
+  display: flex;
+  /* width: 100%; */
+  justify-content: space-between;
+  background: rgb(244, 239, 239);
+  cursor: pointer;
+}
+.sec {
+  border: 0.05px solid grey;
+  padding: 0 1em;
+  align-items: center;
+}
+.imageunder :hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+.sec :hover {
+  box-shadow: none;
+}
+.sec h2 {
+  /* margin-bottom: 0; */
+  text-align: left;
+  align-items: center;
+}
+.sec p {
+  margin-top: 0;
+  text-align: left;
+}
+.c {
+  background: white;
+}
+.c3 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.c3 .one {
+  width: 30%;
+  padding-left: 1rem;
+}
+
+.tweet {
+  text-align: left;
+  width: 65%;
+}
+.tweet h2 {
+  color: black;
+  border-bottom: 2px dotted black;
+}
+.tweet p {
+  margin-bottom: 0;
+  color: black;
+  font-style: italic;
+}
+.tweet button {
+  margin: 1em 0;
+  width: 90%;
+  padding: 0.4em 1em;
+  cursor: pointer;
+}
+.c3 .two {
+  width: 70%;
+  /* border: 0.2px solid grey; */
+  height: fit-content;
+}
+#newsbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.1em 0.5em;
+  border: 0.2px solid grey;
+}
+#newsbox img {
+  width: 2em;
+}
+#newsbox p {
+  font-size: 0.8rem;
+  width: 50%;
+}
+
+.oneone button img,
+.one button img {
+  width: 2em;
+}
+.foods {
+  display: flex;
+  /* justify-content: space-between; */
+  margin: auto;
+}
+.box {
+  text-align: center;
+  width: 40%;
+  box-shadow: 5px black;
+}
+.division {
+  display: flex;
+  justify-content: space-around;
+}
+.box img {
+  width: 100%;
+}
+.box p {
+  text-align: left;
+}
+.footer {
+  border-top: 0.2px solid grey;
+  background: blanchedalmond;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+}
+.f2 img {
+  width: 2em;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+.footer p {
+  margin-bottom: 0;
+}
+.oneone {
+  display: none;
+}
+.n1 {
+  display: none;
+}
+.blog {
+  text-align: center;
+  display: none;
+}
+@media (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+  .c1 {
+    flex-direction: column;
+  }
+  .nav {
+    width: 100%;
+  }
+  .nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+  }
+  .nav li .limg {
+    display: none;
+  }
+  .nav li a {
+    font-size: 1em;
+  }
+  .im {
+    width: 100%;
+  }
+  .c3 {
+    flex-direction: column-reverse;
+  }
+  .c3 .two {
+    width: 100%;
+  }
+  #hide {
+    display: none;
+  }
+  .one {
+    display: none;
+  }
+  .oneone {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+  }
+  .tweet {
+    width: 35%;
+  }
+  #newsbox img {
+    display: none;
+  }
+}
+@media (max-width: 645px) {
+  .foods {
+    display: block;
+  }
+  .division {
+    margin-bottom: 3em;
+  }
+  .box {
+    width: 30%;
+  }
+  #newsbox {
+    display: none;
+  }
+  .imageunder {
+    display: none;
+  }
+}
+@media (max-width: 380px) {
+  .box p {
+    display: none;
+  }
+  .blog {
+    display: block;
+  }
+  #di {
+    display: none;
+  }
+}
+@media (max-width: 520px) {
+  .nav {
+    display: none;
+  }
+  .n1 {
+    display: flex;
+  }
+  #menu {
+    width: 3em;
+  }
+
+  .imageunder p {
+    display: none;
+  }
+}

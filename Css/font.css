@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Yesteryear&display=swap");
+
+/* 
+not done below
+line-height
+letter-spacing
+word-spacing
+text-transform
+text-decoration #none(could be applied on links
+
+*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+.main {
+  font-family: "Yesteryear", cursive;
+}
+.subheading {
+  font-style: normal;
+}
+.one {
+  font-weight: bold;
+  /* text-indent: 50px; */
+}
+.two {
+  font-weight: lighter;
+}
+/* copy pasted from google fonts
+h1 {
+  font-family: "Yesteryear", cursive;
+} */
+/* go to google fonts for suggestions
+ */

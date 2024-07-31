@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  color: red;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.big-img {
+  background: url(./colours.jpg);
+  background-repeat: round;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+.small-img {
+  background: url(.//logo.jpg);
+  background-size: 100vh;
+  background-attachment: fixed;
+
+  /* background-repeat: round;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+.folder-img {
+  display: flex;
+  background: linear-gradient(red, green);
+}

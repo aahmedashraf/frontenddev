@@ -1,0 +1,45 @@
+/*  
+.outer {
+  width: 3700px;
+  height: 200px;
+  background-color: blueviolet;
+}
+ inner is dependant on pixels of outer div 
+.inner {
+  width: 100%;
+  height: 50%;
+  background: red;
+} */
+
+/* 1 em = 16 pixels default browser style
+rem= Relative depends on root
+html is root
+
+percent of screen: 
+vh= view height
+vw= view width 
+
+html {
+  font-size: 32px;
+}
+div {
+  font-size: 10px;
+}
+.relative {
+  font-size: 2rem;
+}
+
+.absolute {
+  font-size: 32px;
+}
+*/
+.banner {
+  width: 50vw;
+  height: 50vh;
+  background: red;
+}
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+}

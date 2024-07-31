@@ -1,0 +1,39 @@
+/* h1 {
+  color: rgb(125, 145, 52);
+}
+h2 {
+  color: yellowgreen;
+}
+p {
+  color: brown;
+} 
+
+
+body {
+  color: blue;
+}
+h1,
+h2 {
+  color: red;
+}
+*/
+#idd {
+  color: green;
+  background-color: blanchedalmond;
+}
+#selector {
+  color: blue;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+div {
+  color: orange;
+  background-color: gray;
+}
+span {
+  text-transform: uppercase;
+}

@@ -1,0 +1,32 @@
+body {
+  background: #f8f8f8;
+}
+a {
+  text-decoration: none;
+}
+.head {
+  width: fit-content;
+}
+.head p {
+  margin-top: 0;
+}
+.head h1 {
+  margin-bottom: 0;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+nav li {
+}
+nav a {
+}
+nav a :hover {
+}
+header {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: center;
+}
